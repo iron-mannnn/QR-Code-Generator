@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black">
+    <div class=" absolute -z-10 bg-[url('../assets/BG.jpg')] opacity-50 bg-cover w-screen h-screen"></div>
+
+    <div class=" h-screen flex justify-center items-center">
+
+
+        <div class="container w-[36rem] h-96 rounded">
+
+            <div class="banner bg-white mt-2 p-4 rounded">
+                <h1 class="text-center">QR Code Generator</h1>
+            </div>
+
+            <div class="mainsection mt-4">
+                <input type="text" placeholder="Enter the URL" id="qr-input"
+                    class="bg-white block w-full mt-2 p-4 rounded">
+            </div>
+
+            <div class="mt-4 flex justify-center">
+                <button 
+                    class="bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 border-b-4 border-green-700 hover:border-green-500 rounded " id="qr-button">
+                    Button
+                </button>
+            </div>
+
+            <div class="w-full contain mt-4 flex justify-center items-center">
+                <div>
+                    <img src="" class="w-56" id="qr-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
